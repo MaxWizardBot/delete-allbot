@@ -1,18 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # (c) Shrimadhav U K
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 """ credentials """
 
@@ -79,7 +67,7 @@ GIT_REPO_LINK = "@MaxxBots"
 START_MESSAGE = get_config("START_MESSAGE", (
     "𝗛𝗲𝘆 𝗗𝗲𝗮𝗿!🙋.\n\n🔖<code> I am Telegram All Message Deleter Bot😊!</code>\n<code>I can Delete Your Channel, group, supergroup all Messages in few Seconds 🤩</code>.\n\n⭕𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲?? follow These Steps 👇\n➪ <b>Add me to the channel/supergroup as admin (with at least delete messages, invite users and add admins permissions)</b>\n➪ </b>Send /delall if you want all the messages to be deleted</b>\n➪ <b>Send /delfrom & /delto before using /delsel in reply to a message if you want to delete that and all subsequent messages.</b> "
     "\n\n"
-    f"👥𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗗𝗜𝗦𝗖𝗨𝗦𝗦𝗜𝗢𝗡 𝗚𝗥𝗢𝗨𝗣🗣️" 👉 {REQD_PERMISSIONS} 👈"
+    f"<b>JOIN SUPPORT CHAT</b>" 👉 {REQD_PERMISSIONS} 👈"
     "\n\n"
     f"<b>📮BOT CHANNEL 📮</b> {GIT_REPO_LINK}"
 ))
