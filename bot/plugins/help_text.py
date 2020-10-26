@@ -7,6 +7,7 @@ from pyrogram.types import Message
 from bot import (
     START_COMMAND,
     START_MESSAGE
+    HELP_COMMAND
 )
 from bot.bot import Bot
 
@@ -28,7 +29,7 @@ async def start_command_fn(_, message: Message):
 )
 async def start_command_fn(_, message: Message):
     await message.reply_text(
-        text=Lol,
+        text=HELP_MESSAGE,
         quote=True,
         disable_web_page_preview=True,
         disable_notification=True
