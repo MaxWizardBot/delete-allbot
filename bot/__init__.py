@@ -67,7 +67,7 @@ GIT_REPO_LINK = "@MaxxBots"
 START_MESSAGE = get_config("START_MESSAGE", (
     "𝗛𝗲𝘆 𝗗𝗲𝗮𝗿!🙋.\n\n🔖<code> I am Telegram All Message Deleter Bot😊!</code>\n<code>I can Delete Your Channel, group, supergroup all Messages in few Seconds 🤩</code>.\n\n⭕𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲?? follow These Steps 👇\n➪ <b>Add me to the channel/supergroup as admin (with at least delete messages, invite users and add admins permissions)</b>\n➪ </b>Send /delall if you want all the messages to be deleted</b>\n➪ <b>Send /delfrom & /delto before using /delsel in reply to a message if you want to delete that and all subsequent messages.</b> "
     "\n\n"
-    f"<b>JOIN SUPPORT CHAT</b>" 👉 {REQD_PERMISSIONS} 👈"
+    f"<b>𝗝𝗢𝗜𝗡 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣</b> 👉 {REQD_PERMISSIONS} 👈"
     "\n\n"
     f"<b>📮BOT CHANNEL 📮</b> {GIT_REPO_LINK}"
 ))
