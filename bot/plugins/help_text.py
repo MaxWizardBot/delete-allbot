@@ -6,7 +6,8 @@ from pyrogram import filters
 from pyrogram.types import Message
 from bot import (
     HELP_COMMAND,
-    START_COMMAND
+    HELP_MESSAGE
+    START_COMMAND,
     START_MESSAGE
     
 )
@@ -24,6 +25,7 @@ async def start_command_fn(_, message: Message):
         disable_web_page_preview=True,
         disable_notification=True
     )
+
 @Bot.on_message(
     filters.command(HELP_COMMAND) &
     filters.private
