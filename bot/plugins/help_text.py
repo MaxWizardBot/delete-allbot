@@ -22,3 +22,14 @@ async def start_command_fn(_, message: Message):
         disable_web_page_preview=True,
         disable_notification=True
     )
+@Bot.on_message(
+    filters.command(HELP_COMMAND) &
+    filters.private
+)
+async def start_command_fn(_, message: Message):
+    await message.reply_text(
+        text=Lol,
+        quote=True,
+        disable_web_page_preview=True,
+        disable_notification=True
+    )
