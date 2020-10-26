@@ -73,15 +73,15 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "https://t.me/Modzilla"
-GIT_REPO_LINK = "@Iggie"
+REQD_PERMISSIONS = "https://t.me/@MaxxBotChat"
+GIT_REPO_LINK = "@MaxxBots"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
-    "<b>I'm a bot that can delete all your channel or supergroup messages.\n\nTo use me:\n- add me to the channel/supergroup as admin (with at least delete messages, invite users and add admins permissions)\n- send /delall if you want all the messages to be deleted\n- send /delfrom & /delto before using /delsel in reply to a message if you want to delete that and all subsequent messages.</b> "
+    "𝗛𝗲𝘆 𝗗𝗲𝗮𝗿!🙋.\n\n🔖<code> I am Telegram All Message Deleter Bot😊!</code>\n<code>I can Delete Your Channel, group, supergroup all Messages in few Seconds 🤩</code>.\n\n⭕𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲?? follow These Steps 👇\n➪ <b>Add me to the channel/supergroup as admin (with at least delete messages, invite users and add admins permissions)</b>\n➪ </b>Send /delall if you want all the messages to be deleted</b>\n➪ <b>Send /delfrom & /delto before using /delsel in reply to a message if you want to delete that and all subsequent messages.</b> "
     "\n\n"
-    f"<b>Premium Android Apps Channel</b> 👉 {REQD_PERMISSIONS} 👈"
+    f"👥𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗗𝗜𝗦𝗖𝗨𝗦𝗦𝗜𝗢𝗡 𝗚𝗥𝗢𝗨𝗣🗣️" 👉 {REQD_PERMISSIONS} 👈"
     "\n\n"
-    f"<b>In case of issues, contact</b> {GIT_REPO_LINK}"
+    f"<b>📮BOT CHANNEL 📮</b> {GIT_REPO_LINK}"
 ))
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
