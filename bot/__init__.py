@@ -64,6 +64,13 @@ def LOGGER(name: str) -> logging.Logger:
 REQD_PERMISSIONS = "https://t.me/@MaxxBotChat"
 GIT_REPO_LINK = "@MaxxBots"
 """ strings to be used in the bot """
+HELP_MESSAGE = get_config("HELP_MESSAGE", (
+    "𝗛𝗲𝘆 𝗗𝗲𝗮𝗿!🙋.\n\n🔖<code> I am Telegram All Message Deleter Bot! I can Delete Your Channel, group, supergroup all Messages in few Seconds 🤩</code>.\n\n⭕𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲?? follow These Steps 👇\n\n➪ <b>Add me to the channel/supergroup as admin (with at least delete messages, invite users and add admins permissions)</b>\n\n➪ <b>Send /delall if you want all the messages to be deleted</b>\n\n➪ <b>Send /delfrom & /delto before using /delsel in reply to a message if you want to delete that and all subsequent messages.</b> "
+    "\n\n"
+    f"<b> For More Help:👉</b> <a href='https://t.me/MaxxBotChat'>👥𝗝𝗢𝗜𝗡 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣👥</a>."
+    "\n\n"
+    f"<b>📮BOT CHANNEL 📮</b> {GIT_REPO_LINK}"
+))
 START_MESSAGE = get_config("START_MESSAGE", (
     "𝗛𝗲𝘆 𝗗𝗲𝗮𝗿!🙋.\n\n🔖<code> I am Telegram All Message Deleter Bot! I can Delete Your Channel, group, supergroup all Messages in few Seconds 🤩</code>.\n\n⭕𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲?? follow These Steps 👇\n\n➪ <b>Add me to the channel/supergroup as admin (with at least delete messages, invite users and add admins permissions)</b>\n\n➪ <b>Send /delall if you want all the messages to be deleted</b>\n\n➪ <b>Send /delfrom & /delto before using /delsel in reply to a message if you want to delete that and all subsequent messages.</b> "
     "\n\n"
